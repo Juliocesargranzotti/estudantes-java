@@ -26,6 +26,7 @@ import com.estudantes.estudantes.services.EstudantesService;
 @RestController
 @RequestMapping("estudantes")
 @CrossOrigin
+
 public class EstudantesController {
     
     @Autowired

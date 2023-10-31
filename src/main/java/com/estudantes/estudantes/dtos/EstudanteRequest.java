@@ -13,7 +13,7 @@ public record EstudanteRequest(
     String course,
 
     @NotBlank(message = "Telefone não pode ser em branco")
-    String telefone
+    String phone
 ) {
     
 }

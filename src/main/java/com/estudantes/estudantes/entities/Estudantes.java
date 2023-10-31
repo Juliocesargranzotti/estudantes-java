@@ -26,8 +26,8 @@ public class Estudantes implements Serializable{
     @Column(length = 1024, nullable = false, name = "Estudante_course")
     private String course;
 
-    @Column(length = 1024, nullable = false, name = "Estudante_telefone")
-    private String telefone;
+    @Column(length = 1024, nullable = false, name = "Estudante_phone")
+    private String phone;
 
     public Long getId() {
         return id;
@@ -61,12 +61,12 @@ public class Estudantes implements Serializable{
         this.course = course;
     }
 
-    public String getTelefone() {
-        return telefone;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     @Override

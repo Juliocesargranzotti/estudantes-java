@@ -1,3 +1,3 @@
-INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_TELEFONE) VALUES('João', 'joao@gmail.com', 'ADM', '11967424912');  
-INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_TELEFONE) VALUES('Marcio', 'Marcio@gmail.com', 'GTI', '11966324812');  
-INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_TELEFONE) VALUES('Julio', 'Julio@gmail.com', 'ADS', '11967424342');   
+INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_Phone) VALUES('João', 'joao@gmail.com', 'ADM', '11967424912');  
+INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_Phone) VALUES('Marcio', 'Marcio@gmail.com', 'GTI', '11966324812');  
+INSERT INTO TBL_ESTUDANTES(Estudante_NAME, Estudante_EMAIL, Estudante_COURSE, Estudante_Phone) VALUES('Julio', 'Julio@gmail.com', 'ADS', '11967424342');   

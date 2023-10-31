@@ -14,7 +14,7 @@ public class EstudantesMapper {
         estudantes.setName(request.name());
         estudantes.setEmail(request.email());
         estudantes.setCourse(request.course());
-        estudantes.setTelefone(request.telefone());
+        estudantes.setPhone(request.phone());
         return estudantes;
     }
 
@@ -23,7 +23,7 @@ public class EstudantesMapper {
                             estudantes.getName(),
                             estudantes.getEmail(),
                             estudantes.getCourse(),
-                            estudantes.getTelefone());
+                            estudantes.getPhone());
     }
 
     public static List<EstudanteResponse> toDTOList(List<Estudantes> estudantes){

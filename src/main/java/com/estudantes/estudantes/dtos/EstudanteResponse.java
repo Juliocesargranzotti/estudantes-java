@@ -5,7 +5,7 @@ public record EstudanteResponse(
     String name,
     String email,
     String course,
-    String telefone
+    String phone
 ) {
     
 }

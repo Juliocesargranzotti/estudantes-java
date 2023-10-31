@@ -52,7 +52,7 @@ public class EstudantesService {
             updateEstudantes.setName(estudantes.getName());
             updateEstudantes.setEmail(estudantes.getEmail());
             updateEstudantes.setCourse(estudantes.getCourse());
-            updateEstudantes.setTelefone(estudantes.getTelefone());
+            updateEstudantes.setPhone(estudantes.getPhone());
             this.repository.save(updateEstudantes);
         }
         catch(EntityNotFoundException e){
